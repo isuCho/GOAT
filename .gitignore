@@ -3,3 +3,4 @@ geckodriver.log
 geckodriver.exe
 virtualenv
 .idea
+/static 
