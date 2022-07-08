@@ -4,3 +4,4 @@ geckodriver.exe
 virtualenv
 .idea
 /static 
+.env 
