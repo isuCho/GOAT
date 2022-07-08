@@ -13,8 +13,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self) -> None:
         self.browser = webdriver.Firefox()
-        if staging_server := os.environ.get('STAGING_SERVER'):
-            self.live_server_url = f'http://{staging_server}'
+        self.live_server_url = 'http://superlists-staging.kurisuprojects.online'
 
     def tearDown(self) -> None:
         self.browser.quit()
