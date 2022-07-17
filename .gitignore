@@ -5,3 +5,4 @@ virtualenv
 .idea
 /static 
 .env 
+*.pyc
