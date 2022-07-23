@@ -149,8 +149,6 @@ LOGGING = {
     'root': {'level': 'INFO'},
 }
 
-LOGOUT_REDIRECT_URL = '/'
-
 EMAIL_HOST = 'smtp-mail.outlook.com'
 EMAIL_HOST_USER = 'test_test1919@outlook.co.nz'
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
